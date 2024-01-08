@@ -16,6 +16,13 @@ python main.py
 
 Here we have uploaded two datasets: the Douban and PPI datasets, and more descriptions of the datasets can be found by moving to our graph alignment framework (with subsequent updates to the github links).
 
+----------------------------------------
+## Dataset processing
+
+- NELL([NELL](https://pytorch-geometric.readthedocs.io/en/latest/generated/torch_geometric.datasets.NELL.html#torch_geometric.datasets.NELL)), BGS([BGS](https://pytorch-geometric.readthedocs.io/en/latest/generated/torch_geometric.datasets.Entities.html#torch_geometric.datasets.Entities)), Elliptic([Elliptic](https://pytorch-geometric.readthedocs.io/en/latest/generated/torch_geometric.datasets.EllipticBitcoinDataset.html#torch_geometric.datasets.EllipticBitcoinDataset)) data sets: We obtain the original image from the built-in datasets function of pytorch_geometric, and obtain the target graph by randomly deleting 10% of the edges (note that the node numbers need to be scrambled to obtain unequal ground_truth).
+
+- We have uploaded the remaining data sets into the compressed package of the data file.
+
 ## Cite
 ```python
 @ARTICLE {10241993,
